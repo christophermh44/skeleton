@@ -1,0 +1,76 @@
+/* RESOURCES */
+
+/* MAIN */
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	color: inherit;
+	font-family: inherit;
+	font-feature-settings: inherit;
+	font-size: inherit;
+	font-variant-numeric: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+[hidden],
+[v-cloak] {
+	display: none !important;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: 'Inter UI', Arial, sans-serif;
+	font-size: 62.5%;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	background-color: #fff;
+	color: #000;
+	font-size: 1.6rem;
+	margin: 0;
+	padding: 0;
+}
+
+[aria-hidden="true"] {
+	speak: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	white-space: nowrap;
+	-webkit-clip-path: inset(50%);
+	clip-path: inset(50%);
+	border: 0;
+}
+
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+	position: static;
+	width: auto;
+	height: auto;
+	overflow: visible;
+	clip: auto;
+	white-space: normal;
+	-webkit-clip-path: none;
+	clip-path: none;
+}
+
+/* STRUCTURE */
+
+/* PATTERNS */
